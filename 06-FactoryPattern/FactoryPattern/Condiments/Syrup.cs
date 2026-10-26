@@ -1,0 +1,19 @@
+namespace FactoryPattern
+{
+    public class Syrup : CondimentDecorator
+    {
+        public Syrup(Beverage beverage) : base(beverage)
+        {
+        }
+
+        public override string GetDescription()
+        {
+            return beverage.GetDescription() + ", Syrup";
+        }
+
+        public override decimal Cost()
+        {
+            return beverage.Cost() + 0.30m;
+        }
+    }
+}

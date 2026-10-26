@@ -9,6 +9,7 @@ Al mijn Design Patterns-opdrachten (C#, .NET 8) in één repo. Open `DesignPatte
 | [`03-FacadePattern-Game`](03-FacadePattern-Game/) | Facade | `ConsoleApp3` | `GameFacade` die Graphics, Audio, Save, Network en GameEngine start |
 | [`04-FacadePattern-HomeTheater`](04-FacadePattern-HomeTheater/) | Facade + Principle of Least Knowledge | `ConsoleApp4` | `HomeTheaterFacade` en de antwoorden over de Law of Demeter |
 | [`05-DecoratorPattern`](05-DecoratorPattern/) | Decorator | `NotificationApp` | Logging-, Urgent- en Timestamp-decorators en de uitwerking van het Decorator-document |
+| [`06-FactoryPattern`](06-FactoryPattern/) | Factory Method | `FactoryPattern` | Starbuzz-koffie: `CoffeeStore`/`StarbuzzCoffeeStore` met een `CoffeeType`-enum, zodat alleen dranken van de kaart te bestellen zijn |
 
 ## Decorator-opdracht
 
