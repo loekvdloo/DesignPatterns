@@ -10,6 +10,7 @@ Al mijn Design Patterns-opdrachten (C#, .NET 8) in één repo. Open `DesignPatte
 | [`04-FacadePattern-HomeTheater`](04-FacadePattern-HomeTheater/) | Facade + Principle of Least Knowledge | `ConsoleApp4` | `HomeTheaterFacade` en de antwoorden over de Law of Demeter |
 | [`05-DecoratorPattern`](05-DecoratorPattern/) | Decorator | `NotificationApp` | Logging-, Urgent- en Timestamp-decorators en de uitwerking van het Decorator-document |
 | [`06-FactoryPattern`](06-FactoryPattern/) | Factory Method | `FactoryPattern` | Starbuzz-koffie: `CoffeeStore`/`StarbuzzCoffeeStore` met een `CoffeeType`-enum, zodat alleen dranken van de kaart te bestellen zijn |
+| [`07-SingletonPattern`](07-SingletonPattern/) | Singleton | `SingletonPattern` | Thread-safe `ChocolateBoiler` (eager instantiation) en een vergelijking van synchronized, eager en double checked locking |
 
 ## Decorator-opdracht
 
